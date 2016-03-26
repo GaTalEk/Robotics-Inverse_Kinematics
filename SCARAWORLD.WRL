@@ -1,0 +1,176 @@
+#VRML V2.0 utf8
+# Created with V-Realm Builder v2.0
+# Integrated Data Systems Inc.
+# www.ids-net.com
+
+DEF Global_transform Transform {
+  rotation -0.57735 -0.57735 -0.57735 2.0944
+  children DEF Link_0_Coord Transform {
+    children [
+      DEF Link_0_Rotation Transform {
+        children [
+          DEF Link_1_Coord Transform {
+            translation 0 1 0.7
+            rotation 0 0 1 1.5708
+            children DEF Link_1_Rotation Transform {
+              children [
+                DEF Link_2_Coord Transform {
+                  translation 1 0 0
+                  rotation 1 0 0 3.14159
+                  children DEF Link_2_Translation Transform {
+                    children [
+                      DEF Link_3_Cyl Transform {
+                        translation 0 0 0.5
+                        rotation 0 0 1 1.5708
+                        children Shape {
+                          appearance Appearance {
+                            material Material {
+                              diffuseColor 0.00815487 1 0.117822
+                            }
+                          }
+                          geometry Cylinder {
+                            radius 0.1
+                            height 0.5
+                          }
+                        }
+                      }
+                      DEF Link_3_Coords Transform {
+                        translation 0 0 0.5
+                        rotation -0.57735 0.57735 -0.57735 2.0944
+                        children DEF Link_3_Rotation Transform {
+                          children [
+                            DEF Link_4_Cyl Transform {
+                              rotation 0 0 1 1.5708
+                              children Shape {
+                                appearance Appearance {
+                                  material Material {
+                                    diffuseColor 0.0151079 0.0810848 1
+                                  }
+                                }
+                                geometry Cylinder {
+                                  radius 0.1
+                                  height 0.5
+                                }
+                              }
+                            }
+                            DEF Link_4_Coords Transform {
+                              rotation -0.57735 -0.57735 0.57735 2.0944
+                              children DEF Link_4_Rotation Transform {
+                                children [
+                                  DEF Link_5_Coords Transform {
+                                    rotation 0.57735 -0.57735 -0.57735 2.0944
+                                    children DEF Link_5_Rotation Transform {
+                                      children DEF Link_6_Coords Transform {
+                                        translation 0 0 0.2
+                                        rotation 0 0 1 1.5708
+                                        children DEF Gripper Transform {
+                                          children [
+                                            DEF Left Transform {
+                                              translation 0 0.075 0
+                                              rotation 1 0 0 3.14159
+                                              children Shape {
+                                                appearance Appearance {
+                                                  material Material {
+                                                    diffuseColor 1 0.960687 0.00920522
+                                                  }
+                                                }
+                                                geometry Box {
+                                                  size 0.05 0.025 0.3
+                                                }
+                                              }
+                                            }
+                                            DEF Right Transform {
+                                              translation 0 -0.075 0
+                                              rotation 1 0 0 3.14159
+                                              children Shape {
+                                                appearance Appearance {
+                                                  material Material {
+                                                  }
+                                                }
+                                                geometry Box {
+                                                  size 0.05 0.025 0.3
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                  DEF Link_5_Cyl Transform {
+                                    rotation 0 0 1 1.5708
+                                    children Shape {
+                                      appearance Appearance {
+                                        material Material {
+                                          diffuseColor 1 0.0399483 0.0789367
+                                        }
+                                      }
+                                      geometry Cylinder {
+                                        radius 0.1
+                                        height 0.5
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+                DEF Link_2_Rect Transform {
+                  translation 1 0 0
+                  children Shape {
+                    appearance Appearance {
+                      material Material {
+                        diffuseColor 1 0.584679 0.00354648
+                      }
+                    }
+                    geometry Box {
+                      size 0.2 0.2 0.5
+                    }
+                  }
+                }
+              ]
+            }
+          }
+          DEF Link_1_Cyl Transform {
+            translation 0 1 0.7
+            rotation 1 0 0 1.5708
+            children Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 1 1
+                }
+              }
+              geometry Cylinder {
+                radius 0.1
+                height 0.5
+              }
+            }
+          }
+        ]
+      }
+      DEF Link_0_Cyl Transform {
+        translation 0 0 0.7
+        rotation 1 0 0 1.5708
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Cylinder {
+            radius 0.1
+            height 0.5
+          }
+        }
+      }
+    ]
+  }
+}
+Viewpoint {
+  description "Viewpoint"
+  position 1 0.5 5
+}
