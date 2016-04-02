@@ -1,6 +1,6 @@
 # EECE 487 Robotics: Inverse Kinematics
 
-Part 2 of 3
+## Part 2 of 3
 
 The project involved the modeling of a 6-degree-of-freedom SCARA robot in Matlab Simulink. All sections controlled the model arm using a Novint Falcon controller.
 
